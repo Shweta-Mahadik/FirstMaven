@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-28T18:19:43Z" name="Suite" finished-at="2021-01-28T18:19:44Z" duration-ms="209">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTests.m2()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" name="m2" class="com.testingshastra.utilities.LoginTests"/>
+        <method signature="LoginTests.m4()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" name="m4" class="com.testingshastra.utilities.LoginTests"/>
+        <method signature="SignupTests.m1()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" name="m1" class="com.testingshastra.utilities.SignupTests"/>
+        <method signature="SignupTests.m3()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" name="m3" class="com.testingshastra.utilities.SignupTests"/>
+        <method signature="SignupTests.m5()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" name="m5" class="com.testingshastra.utilities.SignupTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTests.m1()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" name="m1" class="com.testingshastra.utilities.LoginTests"/>
+        <method signature="LoginTests.m3()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" name="m3" class="com.testingshastra.utilities.LoginTests"/>
+        <method signature="LoginTests.m5()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" name="m5" class="com.testingshastra.utilities.LoginTests"/>
+        <method signature="SignupTests.m2()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" name="m2" class="com.testingshastra.utilities.SignupTests"/>
+        <method signature="SignupTests.m4()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" name="m4" class="com.testingshastra.utilities.SignupTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-01-28T18:19:43Z" name="Test" finished-at="2021-01-28T18:19:44Z" duration-ms="209">
+      <class name="com.testingshastra.utilities.SignupTests">
+        <test-method signature="m1()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" started-at="2021-01-28T18:19:44Z" name="m1" finished-at="2021-01-28T18:19:44Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" started-at="2021-01-28T18:19:44Z" name="m2" finished-at="2021-01-28T18:19:44Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" started-at="2021-01-28T18:19:44Z" name="m3" finished-at="2021-01-28T18:19:44Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method signature="m4()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" started-at="2021-01-28T18:19:44Z" name="m4" finished-at="2021-01-28T18:19:44Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method signature="m5()[pri:0, instance:com.testingshastra.utilities.SignupTests@1787bc24]" started-at="2021-01-28T18:19:44Z" name="m5" finished-at="2021-01-28T18:19:44Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+      </class> <!-- com.testingshastra.utilities.SignupTests -->
+      <class name="com.testingshastra.utilities.LoginTests">
+        <test-method signature="m1()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" started-at="2021-01-28T18:19:44Z" name="m1" finished-at="2021-01-28T18:19:44Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" started-at="2021-01-28T18:19:44Z" name="m2" finished-at="2021-01-28T18:19:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" started-at="2021-01-28T18:19:44Z" name="m3" finished-at="2021-01-28T18:19:44Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method signature="m4()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" started-at="2021-01-28T18:19:44Z" name="m4" finished-at="2021-01-28T18:19:44Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method signature="m5()[pri:0, instance:com.testingshastra.utilities.LoginTests@544d57e]" started-at="2021-01-28T18:19:44Z" name="m5" finished-at="2021-01-28T18:19:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+      </class> <!-- com.testingshastra.utilities.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
