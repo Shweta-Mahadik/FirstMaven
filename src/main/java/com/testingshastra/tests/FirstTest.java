@@ -10,6 +10,7 @@ public class FirstTest {
 		System.setProperty("webdriver.chrome.driver", "D://Driver//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.testingshastra.com");
+		driver.manage().window().maximize();
 	}
 
 }
